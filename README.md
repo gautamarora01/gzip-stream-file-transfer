@@ -1,2 +1,11 @@
-# gzip-stream-file-transfer
-HTTP File Transfer with Gzip Compression and Decompression using Node.js Streams
+# File Transfer via Streams
+HTTP File Transfer with Gzip Compression and Decompression using Node.js Streams.
+
+Run:
+```bash
+node gzip-receive.js
+```
+
+```bash
+node gzip-send.js 'FILE_PATH' localhost
+```
